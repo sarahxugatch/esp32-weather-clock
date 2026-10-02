@@ -1,0 +1,15 @@
+# Local secrets - never commit real Wi-Fi credentials
+secrets.h
+wifi_config.h
+
+# Arduino / PlatformIO build artifacts
+.pio/
+*.elf
+*.bin
+*.bin.tmp
+build/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
